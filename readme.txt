@@ -1,6 +1,6 @@
 === Enable Numeric Slugs ===
 Author URL: https://84361749.com/
-Github: https://84361749.com/
+Github: https://github.com/ayangyuan/Wordpress-Plugin-Enable-Numeric-Slugs
 Tags: numeric, slugs, postname, number, title, post
 Requires at least: 4.9.1
 Tested up to: 4.9.1

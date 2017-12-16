@@ -7,6 +7,7 @@ Description: Fix postname(slug) can not be a 4 digit number issue on wordpress 4
 Version: 1.0.0
 Author: Yuan Yang
 Author URI: https://84361749.com/
+Github: https://github.com/ayangyuan/Wordpress-Plugin-Enable-Numeric-Slugs
 License: GPL2
 */
 
