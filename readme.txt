@@ -51,7 +51,7 @@ So, if you've got some cool feature that you'd like to implement into the plugin
 
 == Screenshots ==
 
-1. Don't worry just "Plug and Play".
+1. Plug and Play
 
 == Frequently Asked Questions ==
 
