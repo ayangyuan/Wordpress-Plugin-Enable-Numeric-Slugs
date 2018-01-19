@@ -43,13 +43,10 @@ add_filter('rewrite_rules_array', 'Enable_Numberic_Slug');
 
 
 /** Add links to the plugin action row. */
-//if ( ! defined( 'MR_ING_ENS_PLUGIN_FILE' ) ) {define( 'MR_ING_ENS_PLUGIN_FILE', __FILE__ );}
-if (!function_exists('mr_ing_plugin_row_meta')) {
-function mr_ing_plugin_row_meta( $links, $file ) {
-  //if ( plugin_basename( MR_ING_ENS_PLUGIN_FILE ) === $file ) {
+function mr_ing_ens_plugin_row_meta( $links, $file ) {
   if ( plugin_basename( __FILE__ ) === $file ) {
     $new_links = array(
-    'support'    => '<a href = "http://wordpress.org/support/plugin/enable_numeric_slugs">' . __( 'Support' ) . '</a>',
+    'support'    => '<a href = "http://wordpress.org/support/plugin/enable-numeric-slugs">' . __( 'Support' ) . '</a>',
     'donate'     => '<a href = "https://squaredaway.studio/donate/">' . __( 'Donate') . '</a>',
     'contribute' => '<a href = "https://github.com/ayangyuan/Wordpress-Plugin-Enable-Numeric-Slugs">' . __( 'Contribute' ) . '</a>',
      );
@@ -57,6 +54,5 @@ function mr_ing_plugin_row_meta( $links, $file ) {
    }
    return $links;
 }
-}
-add_filter( 'plugin_row_meta', 'mr_ing_plugin_row_meta', 10, 2 );
+add_filter( 'plugin_row_meta', 'mr_ing_ens_plugin_row_meta', 10, 2 );
 
